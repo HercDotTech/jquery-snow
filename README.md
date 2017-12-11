@@ -70,6 +70,8 @@ var snowEffectInterval = jQuery.fn.snow({
   ]
 });
 ```
-# Additional info
+# Additional info & download
 
 Tested on jQuery 2.7 and 3.1.
+
+Click <a href="jquery.snow.js" target="_blank">here</a> to download the JS.
