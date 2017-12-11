@@ -1,4 +1,4 @@
-# jquery-snow
+# jQuery Snow Plugin
 A simple jQuery snow plugin with customizable options and elements. Works with pure HTML elements. Can be used with FontAwesome or any other icon font as well as images.
 
 # USAGE (EXAMPLE REQUIRES FONT AWESOME):
@@ -71,4 +71,4 @@ var snowEffectInterval = jQuery.fn.snow({
 });
 ```
 
-Tested on jQUery 2.7 and 3.1.
+Tested on jQuery 2.7 and 3.1.
