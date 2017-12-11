@@ -2,7 +2,8 @@
 A simple jQuery snow plugin with customizable options and elements. Works with pure HTML elements. Can be used with FontAwesome or any other icon font as well as images.
 
 # EXAMPLE USAGE (REQUIRES FONT AWESOME):
-var snowEffectInterval = jQuery.fn.snow({
+
+```var snowEffectInterval = jQuery.fn.snow({
   minSize: 10, // min size of element (default: 20), works only for font base icons
   maxSize: 20, // max size of element (default: 50), works only for font base icons
   fallTimeMultiplier: 20, // flake fall time multiplier (default: 20)
@@ -31,6 +32,6 @@ var snowEffectInterval = jQuery.fn.snow({
       color: '#ffffff' // hex color for this element - works only for font based icons
     }
   ]
-});
+});```
 
 # Tested on jQUery 2.7 and 3.1.
