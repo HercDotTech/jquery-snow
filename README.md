@@ -1,7 +1,7 @@
 # jQuery Snow Plugin
 A simple jQuery snow plugin with customizable options and elements. Works with pure HTML elements. Can be used with FontAwesome or any other icon font as well as images.
 
-# USAGE (example uses fontAwesome):
+# Usage (example uses fontAwesome):
 
 In order to compensate for not having a ratio mechanism built-in you can just add a proportionate number of copies to the elements array, see below:
 
