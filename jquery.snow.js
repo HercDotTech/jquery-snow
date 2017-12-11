@@ -13,8 +13,8 @@
  * @params maxSize - max size of element (default: 50)
  * @param fallTimeMultiplier - flake fall time multiplier, the larger the number the longer *all* flakes will take to "land" (default: 20)
  * @param fallTimeDifference - flake fall time difference, the larger the number the bigger the difference in fall time between flakes (default: 10000)
- * @params spawnInterval - interval (miliseconds) between new element spawns
- * @params target - jQuery element to apply snow effect on (should work on any block element)
+ * @params spawnInterval - interval (miliseconds) between new element spawns (default: 500)
+ * @params target - jQuery element to apply snow effect on (should work on any block element) (default: body)
  * @params elements - elements to use in generating snow effect
  *
  * @return interval - returns the interval so that the snow effect can be "paused"
