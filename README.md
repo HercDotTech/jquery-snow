@@ -19,10 +19,10 @@ var snowEffectInterval = jQuery.fn.snow({
   // flake fall time difference (default: 10000)
   fallTimeDifference: 10000, 
   
-  // interval (miliseconds) between new element spawns
+  // interval (miliseconds) between new element spawns (default: 500)
   spawnInterval: 100, 
   
-  // jQuery element to apply snow effect on (should work on any block element)
+  // jQuery element to apply snow effect on (should work on any block element) (default: body)
   target: jQuery("body"),
   
   //elements to use in generating snow effect
