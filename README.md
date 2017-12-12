@@ -7,10 +7,10 @@ In order to compensate for not having a ratio mechanism built-in you can just ad
 
 ```
 var snowEffectInterval = jQuery.fn.snow({
-  // min size of element (default: 20), works only for font base icons
+  // min size of element (default: 20)
   minSize: 10,
   
-  // max size of element (default: 50), works only for font base icons
+  // max size of element (default: 50)
   maxSize: 20,
   
   // flake fall time multiplier (default: 20)
