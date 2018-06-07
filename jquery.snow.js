@@ -149,7 +149,6 @@
 			
 			// Calculate distance from rect origin to spawn line end
 			var originToSpawnEndDistance = Math.sqrt(Math.pow(lineDistance, 2) + Math.pow(lineRadius, 2));
-			console.log(lineCenter);
 			return getCircleIntersectionPoints(
 				0, 0, originToSpawnEndDistance,
 				lineCenter.x, lineCenter.y, lineRadius
@@ -197,9 +196,6 @@
 						x: endPos.x + originOffset.x,
 						y: endPos.y + originOffset.y
 					};
-					
-					console.log(spawnPos);
-					console.log(endPos);
 					
 					$element
 						.clone()
