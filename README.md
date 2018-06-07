@@ -19,6 +19,9 @@ var snowEffectInterval = jQuery.fn.snow({
   // flake fall time difference (default: 10000)
   fallTimeDifference: 10000, 
   
+  // Fall top-left to bottom-right (default: 270)
+  direction: 225,
+  
   // interval (miliseconds) between new element spawns (default: 500)
   spawnInterval: 100, 
   
